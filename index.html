@@ -2,192 +2,21 @@
 <html>
 
 <head>
-    <title>HTML basics</title>
+    <title>HTML/CSS/RWD</title>
     <meta name="author" content="Milos Maksimovic">
-    <meta name="keywords" content="html, fon, tutorial, multimedia">
+    <meta name="keywords" content="html, css, rwd, responsive, fon, tutorial, multimedia">
     <meta name="description" content="A tiny test show-all site">
     <base href="/">
-
-    <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
 <body>
-    <h1>This is the document title</h1>
-
-    <section>
-        <h2>Text</h2>
-
-        <h3>Paragraphs</h3>
-        <p>
-            Here's a paragraph. Inside it we can have a <span>span</span>. It does nothing really, without CSS. We can
-            go to the other row here but it won't work, though.
-        </p>
-        <pre>Here's another paragraph. Here's a <strong>strong tag</strong> as well as <em>em tag</em>. We can go to the other
-            row here. And have a <sup>o</sup>C or log<sub>2</sub> displayed for example
-        </pre>
-        <p>This won't have extra spaces</p>
-        <p>This &nbsp;will &nbsp;have &nbsp;extra &nbsp;spaces</p>
-
-        <div>
-            <pre>This pre tag should not be enlarged by child rules, but by descendant.</pre>
-        </div>
-
-        <h3>Quotes</h3>
-        <blockquote cite="Winston Churchil">
-            Success consists of going from failure to failure without loss of enthusiasm.
-            <footer>
-                <cite>Winston Churchil</cite>
-            </footer>
-        </blockquote>
-        <div>
-            <q>Success consists of going from failure to failure without loss of enthusiasm.</q>
-        </div>
-    </section>
-
-    <section>
-        <h2>This is an unordered list</h5>
-            <ul>
-                <li>Item 1</li>
-                <li>Item 2</li>
-                <li>Item 3</li>
-                <li>Item 4</li>
-            </ul>
-    </section>
-
-    <section>
-        <h2>This is an ordered list</h5>
-            <ol>
-                <li>Item 1</li>
-                <li>Item 2</li>
-                <li>Item 3</li>
-                <li>Item 4</li>
-            </ol>
-    </section>
-
-
-    <section>
-        <h2>This is an definition list</h5>
-            <dl>
-                <lh>Glossary</lh>
-                <dt>HTML</dt>
-                <dd>HyperText Markup Language</dd>
-                <dt>CSS</dt>
-                <dd>Cascading StyleSheets</dd>
-            </dl>
-    </section>
-
-    <section>
-        <h2>Tables</h2>
-        <table>
-            <caption>Students</caption>
-            <thead>
-                <tr>
-                    <th>No.</th>
-                    <th>Title</th>
-                    <th>Name</th>
-                    <th>Surname</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>1</td>
-                    <td rowspan="2">Mr.</td>
-                    <td>Petar</td>
-                    <td>Petrovic</td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>Jovan</td>
-                    <td>Jovanovic</td>
-                </tr>
-                <tr>
-                    <td>3</td>
-                    <td>Mrs.</td>
-                    <td>Marija</td>
-                    <td>Markovic</td>
-                </tr>
-            </tbody>
-            <tfoot>
-                <tr>
-                    <td colspan="3">Total students</td>
-                    <td>3</td>
-                </tr>
-            </tfoot>
-        </table>
-    </section>
-
-    <section>
-        <h2>Links/Anchors</h2>
-        <a href="new-page.html">Go to new page</a>
-        <br />
-        <a href="http://google.com" target="_blank">Go to Google in a new tab</a>
-    </section>
-
-    <section>
-        <h2>Images</h2>
-        <img src="http://www.fon.bg.ac.rs/wp-content/themes/fon/img/fon-logo=cir=.png" alt="FON" />
-        <br />
-        <img src="http://www.fon.bg.ac.rs/wp-content/themes/fon/img/fon.png" alt="FON" />
-    </section>
-
-    <section>
-        <h2>Forms</h2>
-        <form>
-            <div>
-                <label for="example-text-input">Text</label>
-                <input type="text" value="Example text" id="example-text-input">
-            </div>
-            <div>
-                <label for="example-search-input">Search</label>
-                <input type="search" value="How do I go online" id="example-search-input">
-            </div>
-            <div>
-
-                <label for="example-email-input">Email</label>
-                <input type="email" value="test@example.com" id="example-email-input">
-            </div>
-            <div>
-
-                <label for="example-url-input">URL</label>
-                <input type="url" value="https://google.com" id="example-url-input">
-            </div>
-            <div>
-
-                <label for="example-tel-input">Telephone</label>
-                <input type="tel" value="1-(555)-555-5555" id="example-tel-input">
-            </div>
-            <div>
-
-                <label for="example-password-input">Password</label>
-                <input type="password" value="hunter2" id="example-password-input">
-            </div>
-            <div>
-
-                <label for="example-number-input">Number</label>
-                <input type="number" value="42" id="example-number-input">
-            </div>
-            <fieldset>
-                <legend>Dates</legend>
-                <label for="example-datetime-local-input">Date and time</label>
-                <input type="datetime-local" value="2011-08-19T13:45:00" id="example-datetime-local-input">
-                <label for="example-date-input">Date</label>
-                <input type="date" value="2011-08-19" id="example-date-input">
-                <label for="example-month-input">Month</label>
-                <input type="month" value="2011-08" id="example-month-input">
-                <label for="example-week-input">Week</label>
-                <input type="week" value="2011-W33" id="example-week-input">
-                <label for="example-time-input">Time</label>
-                <input type="time" value="13:45:00" id="example-time-input">
-            </fieldset>
-            <div>
-                <label for="example-color-input">Color</label>
-                <input type="color" value="#563d7c" id="example-color-input">
-            </div>
-        </form>
-
-    </section>
-
-    <hr />
+    <nav>
+    	<ul>
+    		<li><a href="/01-HTML-CSS/index.html">HTML and CSS</a></li>
+    		<li><a href="/02-RWD/index.html">Responsive web design</a></li>
+    		<li><a href="/03-Ratios/index.html">Ratios</a></li>
+    	</ul>
+    </nav>
 
 </body>
 

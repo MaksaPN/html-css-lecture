@@ -1,0 +1,172 @@
+/*Example 1 - without responsive*/
+
+body {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.span-1, .span-2, .span-3 {
+    min-height: 100px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.span-1 {
+    width: 90px;
+    background-color: lightcoral;
+}
+
+.span-2 {
+    width: 190px;
+    background-color: lightblue;
+}
+
+.span-3 {
+    width: 290px;
+    background-color: lightgreen;
+}
+
+
+/*Example 2 - with calculations for spans, but with initial width*/
+
+
+/*body {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.span-1, .span-2, .span-3 {
+    min-height: 100px;
+    float: left;
+    margin-right: 3.33333%;
+    margin-bottom: 10px;
+}
+
+.span-1 {
+    width: 30%;
+    background-color: lightcoral;
+}
+
+.span-2 {
+    width: 63.33333%;
+    background-color: lightblue;
+}
+
+.span-3 {
+    width: 96.66666%;
+    background-color: lightgreen;
+}*/
+
+
+/*Example 3 - width now also percentage, introduced span3 content*/
+
+
+/*body {
+    width: 90%;
+    margin: 0 auto;
+    font-size: 1.3em;
+}
+
+.span-1, .span-2, .span-3 {
+    min-height: 150px;
+    float: left;
+    margin-right: 3.33333%;
+    margin-bottom: 10px;
+}
+
+.span-1 {
+    width: 30%;
+    background-color: lightcoral;
+}
+
+.span-2 {
+    width: 63.33333%;
+    background-color: lightblue;
+}
+
+.span-3 {
+    width: 96.66666%;
+    background-color: lightgreen;
+}*/
+
+
+/*Example 4 - Img styling*/
+
+
+/*body {
+    width: 90%;
+    margin: 0 auto;
+    font-size: 1.3em;
+}
+
+.span-1, .span-2, .span-3 {
+    min-height: 150px;
+    float: left;
+    margin-right: 3.33333%;
+    margin-bottom: 10px;
+}
+
+.span-1 {
+    width: 30%;
+    background-color: lightcoral;
+}
+
+.span-2 {
+    width: 63.33333%;
+    background-color: lightblue;
+}
+
+.span-3 {
+    width: 96.66666%;
+    background-color: lightgreen;
+}
+
+img {
+    float: right;
+    max-width: 100%;
+}*/
+
+
+/*Example 5 - complete*/
+
+
+/*body {
+    width: 90%;
+    margin: 0 auto;
+    font-size: 1.3em;
+}
+
+.span-1, .span-2, .span-3 {
+    min-height: 150px;
+    float: left;
+    margin-right: 3.33333%;
+    margin-bottom: 10px;
+}
+
+.span-1 {
+    width: 30%;
+    background-color: lightcoral;
+}
+
+.span-2 {
+    width: 63.33333%;
+    background-color: lightblue;
+}
+
+.span-3 {
+    width: 96.66666%;
+    background-color: lightgreen;
+}
+
+img {
+    float: right;
+    max-width: 100%;
+}
+
+@media (min-width: 600px) {
+    img {
+        width: 60%;
+        margin-left: 5%;
+    }
+}*/

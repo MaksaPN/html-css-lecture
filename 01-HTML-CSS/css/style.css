@@ -1,0 +1,144 @@
+/*Selectors, colors, background, fonts*/
+
+/*body {
+    background: #e7f7ff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+
+h1, h2, h3 {
+    font-weight: 500;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+section#text-in-html {
+    background-color: #d7f7ff;
+    border: 1px solid gray;
+    padding: 5px;
+}
+
+section#text-in-html pre {
+    font: inherit;
+    color: blue;
+}
+
+section#text-in-html > pre {
+    font: inherit;
+    color: green
+}
+
+.pulled-in {
+    padding-left: 10px;
+}*/
+
+
+/*Display*/
+
+/*div.form-field {
+    display: inline-block;
+}*/
+
+
+/*Position, margins paddings*/
+
+/*#title {
+    position: fixed;
+    width: 100%;
+    margin: 0;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    background: white;
+}
+
+#content-wrapper {
+    margin-top: 60px;
+}*/
+
+
+/*Text*/
+
+/*p.awesome-text {
+    color: red;
+    text-align: center;
+    padding: 0 100px 0 100px;
+    line-height: 25px;
+    letter-spacing: 3px;
+}*/
+
+
+/*Images*/
+
+/*img {
+    width: 300px;
+    opacity: 0.3;
+}*/
+
+
+/*Borders*/
+
+/*table {
+    min-width: 600px;
+    border-collapse: collapse;
+    border-style: hidden;
+}
+
+table td, table th {
+    border: 1px solid black;
+}*/
+
+
+/*Pseudo-classes*/
+
+/*h1:hover {
+    font-size: 26px;
+}*/
+
+
+/*Pseudo-elements*/
+
+/*h1::after {
+    content: ' by Maksa';
+    font-size: 7px;
+}
+
+p::selection {
+    background-color: black;
+    color: white;
+}
+
+blockquote::first-letter {
+    font-size: 30px;
+    font-weight: bold;
+}*/
+
+
+/*Cursors and scrollbars*/
+
+/*.forms-content {
+    height: 150px;
+    overflow: auto;
+}
+
+.forms-content label {
+    cursor: pointer;
+}
+
+@media print {
+    body {
+        background: black;
+        color: white;
+        font-size: 18px;
+    }
+}*/
